@@ -4,53 +4,71 @@
     box-sizing: border-box;
 }
 body {
-    background-color: aquamarine;
+    background: url("./img/hero.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
     color: brown;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    padding-top: 120px;
 }
 main{
     display: flex;
     margin: auto;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* height: 450px; */
     width: 450px;
-    border: 2px solid;
+    height: 500px;
+    border-radius: 30px;
     padding: 20px;
-}
-.sub-main{
-    display: flex;
-    row-gap: 20px;
-    width: 330px;
-    /* border: 2px solid; */
-    flex-direction: column;
+    background-color: whitesmoke;
+    z-index: 999;
 }
 label{
-    color: black;
+    color: rgb(125, 125, 125);
     font-weight: bolder;
-    /* border: 2px solid; */
 }
 .sub-main input{
     width: 150px;
     height: 30px;
     border-radius: 20px;
     padding: 10px;
+    border: none;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 1.2rem;
 }
 h1{
     font-size: 3rem;
     margin-bottom: 20px;
 }
+button:hover{
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 20px;
+}
 button{
     height: 40px;
     width: 150px;
-    background-color: yellowgreen;
     border: none;
-    border-radius: 10px;
+    font-weight: bolder;
+    color: brown;
+    border-radius: 5px;
     font-size: 1.3rem;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
 }
 #result{
-    color: darkblue;
+    color: rgb(162, 25, 25);
     font-size: 2.4rem;
     text-align: center;
     margin-top: 20px;
