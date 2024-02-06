@@ -31,18 +31,25 @@ main{
 label{
     color: rgb(125, 125, 125);
     font-weight: bolder;
+    /* border: 2px solid; */
+    width: 365px;
 }
 .sub-main input{
     width: 150px;
     height: 30px;
     border-radius: 20px;
     padding: 10px;
+    text-align: center;
     border: none;
 }
 .in{
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 20px;
+    margin-left: 22px;
+    width: 365px;
+    /* border: 2px solid; */
     font-size: 1.2rem;
 }
 h1{
@@ -63,7 +70,7 @@ button{
     border-radius: 5px;
     font-size: 1.3rem;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 120px;
     cursor: pointer;
     transition: all ease-in-out .5s;
 }
